@@ -13,7 +13,6 @@ app.use(express.static('public'));
 
 // 1: in the home,list all the students who took the exam (list all the students)
 app.get('/home', function (req, res){
-  console.log(req.query.ime)
   res.render(__dirname + '/views/full-list.hbs', {students})
 })
 
