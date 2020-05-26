@@ -41,4 +41,5 @@ const students = [
   }
 ];
 
+module.exports = students;
 // export students here:
