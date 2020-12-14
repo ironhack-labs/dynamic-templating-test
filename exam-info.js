@@ -42,3 +42,10 @@ const students = [
 ];
 
 // export students here:
+
+const descendingScore = students.sort((a, b) => {
+  return a.score - b.score;
+});
+
+module.exports = students;
+module.exports = descendingScore;
