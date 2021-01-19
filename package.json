@@ -1,7 +1,7 @@
 {
   "name": "dynamic-templating-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Instructions",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaortez23/dynamic-templating-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anaortez23/dynamic-templating-test/issues"
+  },
+  "homepage": "https://github.com/anaortez23/dynamic-templating-test#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
